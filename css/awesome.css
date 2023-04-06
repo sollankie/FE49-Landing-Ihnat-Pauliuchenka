@@ -30,11 +30,11 @@
 .subtitle {
     width: 363px;
     height: 19px;
-    margin-bottom: 68px;
+    margin-bottom: 60px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #86878B;
@@ -44,14 +44,19 @@ color: #86878B;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 0 15px;
+    /* НЕ ПОЛУЧАЕТСЯ flex-wrap (становятся в колонку)???????? */
+    flex-wrap: wrap;
+    
 }
 .awesome-card {
+    margin: 8px 15px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 40px 0px px;
+    max-width: 350px;
 }
 .awesome-card_logo {
     display: flex;
