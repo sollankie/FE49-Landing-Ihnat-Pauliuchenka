@@ -29,6 +29,18 @@
     text-align: center; 
     padding: 9px 22px 6px 23px;  
 }
+.customers-card__review::after {  
+    content: '';
+    width: 0px; 
+    height: 0px;     
+    border-left: 20px solid transparent; 
+    border-right: 20px solid transparent; 
+    border-top: 20px solid rgba(226, 226, 226, 1);
+    position: absolute;
+    margin-bottom: 7.86px;
+    
+    
+}
 .client-wrap {
     display: flex;
     justify-content: space-between;
@@ -36,20 +48,6 @@
     padding: 22px 15px; 
     position: relative;
 }
-
-.client-wrap::before {
-    content: "";
-    width: 0px; 
-    height: 0px;     
-    border-left: 20px solid transparent; 
-    border-right: 20px solid transparent; 
-    border-top: 20px solid rgba(226, 226, 226, 1);
-    position: absolute;
-    top: 0;
-    left: 40.86px;
-    margin-bottom: 7.86px;  
-}
-
 .client-wrap__img {
     display: flex;
     justify-content: center;
