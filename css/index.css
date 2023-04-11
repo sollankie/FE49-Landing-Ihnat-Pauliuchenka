@@ -1,6 +1,9 @@
 @import url("./cdn.css");
 @import url("./awesome.css");
 @import url("./pricing.css");
+@import url("./customers.css");
+@import url("./design.css");
+
 
 
 
@@ -9,15 +12,61 @@
 
 
 * {
-    margin: 0;
-   padding: 0;
-   list-style: none;
-   text-decoration: none;
-   box-sizing: border-box; 
- }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; 
+}
 
- .container {
+html { 
+  font-family: 'Open Sans', 'Raleway', sans-serif;    
+}
+
+.container {
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
- }
+}
+
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  width: 670px;
+  color: #212121;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: rgb(231, 36, 36, 1);
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+
+
+.description {
+  width: 780px;
+  margin: auto;
+  margin-bottom: 68px;
+}
+
+.description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  text-align: center;
+}
