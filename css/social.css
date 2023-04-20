@@ -1,0 +1,111 @@
+.social {
+    padding: 14px 0 17px;
+    background-color: rgba(248, 239, 239, 1);
+
+}
+
+.social-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.social-wrap__media {
+    width: 365px;
+    
+}
+.social-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+   color:  rgba(51, 51, 51, 1);
+    text-align: start;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.social-description p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: start;  
+}
+
+.social-wrap__list {
+    display: flex; 
+    justify-content: space-between;
+    width: 684px;
+}
+
+
+
+.social-wrap__list_link a {
+    vertical-align: middle;
+    color: rgba(134, 135, 139, 1);
+    text-align: center;
+    
+}
+.fa-facebook-f__social{
+    font-size: 42px;
+    transition: 0.8s;
+}
+
+.fa-facebook-f__social:hover {
+    color: rgb(10, 10, 196);
+    transform: scale(2) rotate(360deg);
+}
+.fa-twitter__social {
+    font-size: 42px;
+    transition: 0.8s;
+}
+
+.fa-twitter__social:hover {
+    color: rgb(94, 94, 248);
+    transform: scale(2) rotate(360deg);
+}
+.fa-google-plus-g__social {
+    font-size: 42px;
+    transition: 0.8s;
+}
+
+.fa-google-plus-g__social:hover {
+    color: rgb(238, 84, 37);
+    transform: scale(2) rotate(360deg);
+}
+.fa-pinterest__social {
+    font-size: 42px;
+    transition: 0.8s;
+}
+.fa-pinterest__social:hover {
+    color: rgb(238, 19, 67);
+    transform: scale(2) rotate(360deg);
+}
+.fa-instagram__social{
+    font-size: 42px;
+    transition: 0.8s;
+}
+.fa-instagram__social:hover {
+    color: rgb(215, 58, 158);
+    transform: scale(2) rotate(360deg);
+}
+.fa-stumbleupon__social {
+    font-size: 42px;
+    transition: 0.8s;
+}
+
+.fa-stumbleupon__social:hover {
+    color: rgb(214, 78, 60);
+    transform: scale(2) rotate(360deg);
+}
+.fa-youtube__social{
+    font-size: 42px;
+    transition: 0.8s;
+}
+.fa-youtube__social:hover {
+    color: rgb(234, 13, 13);
+    transform: scale(2) rotate(360deg);
+}
