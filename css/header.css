@@ -1,0 +1,59 @@
+.header {
+    padding: 20px 0 19px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.logo::after {
+content: "it";
+color: rgba(236, 121, 121, 1)
+}
+
+/* .navigation {
+} */
+
+.navigation-list {
+    display: flex;  
+    
+}
+
+.navigation-list__link {
+    
+    margin-left: 48px;
+}
+.navigation-list__link:first-child {
+margin: 0;
+}
+.navigation-list__link a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    width: 34px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.8s;
+}
+    .navigation-list__link a:hover {
+    color: rgb(21, 207, 232);
+    }
