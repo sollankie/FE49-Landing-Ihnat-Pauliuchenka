@@ -18,7 +18,8 @@
     border: 1px solid rgba(226, 226, 226, 1);
     border-radius: 7px;   
     background-color: rgba(226, 226, 226, 1);
-    
+    position: relative;
+    margin-bottom: 22px;
 }
 
 .customers-card__review p {
@@ -29,25 +30,27 @@
     text-align: center; 
     padding: 9px 22px 6px 23px;  
 }
-.customers-card__review::after {  
-    content: '';
+.customers-card__review::after {
+    content: "";
     width: 0px; 
     height: 0px;     
     border-left: 20px solid transparent; 
     border-right: 20px solid transparent; 
     border-top: 20px solid rgba(226, 226, 226, 1);
     position: absolute;
-    margin-bottom: 7.86px;
-    
+    top: 100%;
+    left: 40.86px;
     
 }
+
 .client-wrap {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 22px 15px; 
-    position: relative;
+    padding: 0 15px; 
+    /* position: relative; */
 }
+
 .client-wrap__img {
     display: flex;
     justify-content: center;
