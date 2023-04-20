@@ -1,5 +1,5 @@
 .design {
-    background-image: url("../logos/background\ 1.svg");
+    background-image: url("../img/background\ 1.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,6 @@
     width: 100%;
     height: 100%;
     top: 0;
-    /* left: 0; */
     background-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -26,7 +25,6 @@
     padding: 0 15px;
     margin: auto;
    position: relative;
-   /* z-index: 1; */
 }
 
 .design-title {

@@ -1,5 +1,5 @@
 .modern {
-    background-image: url("../logos/background-s.svg");
+    background-image: url("../img/background-s.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,6 @@
     line-height: 42px;
     width: 544px;
     color: rgba(255, 255, 255, 1);
-    /* margin: auto; */
     text-align: left;
     text-transform: uppercase; 
 }

@@ -28,10 +28,6 @@
     border-radius: 50%;
     margin-bottom: 30px;
 }
-
-/* .awesome-card__img img {
-} */
-
 .awesome-card__title {
     font-style: normal;
     font-weight: 700;
@@ -44,10 +40,6 @@
     margin-bottom: 16px;
     text-transform: capitalize;
 }
-
-/* .awesome-card__description {
-} */
-
 .awesome-card__description p {
     font-style: normal;
     font-weight: 400;
