@@ -1,0 +1,193 @@
+.modern {
+    background-image: url(../img/axure-modern.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 98px 0 101px;
+}
+
+.modern::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.modern-container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+   position: relative;
+}
+
+.modern-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.axit {
+    width: 544px;
+    margin: 0 15px;
+}
+.logotip {
+ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+            
+    }
+    
+.logotip::after {
+    content: "it";
+    color: rgba(236, 121, 121, 1)
+    }
+
+.modern-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    width: 544px;
+    color: rgba(255, 255, 255, 1);
+    /* margin: auto; */
+    text-align: left;
+    text-transform: uppercase; 
+}
+.modern-title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    display: block;
+    margin: left;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.modern-description {
+    width: 282px;
+    margin: left;
+    margin-bottom: 39px;
+}
+
+.modern-description p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color:  rgba(255, 255, 255, 0.8);
+    text-align: left;
+}
+
+.modern-link {
+    display: block;
+    margin: left;
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 135px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding: 9px 26px;
+    transition: 0.8s;
+}
+.modern-link:hover {
+    color: rgb(64, 134, 215);
+
+}
+
+
+
+
+
+
+.free {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px; 
+    overflow: hidden;
+    margin: 0 15px;
+   
+}
+
+.form-free {
+     width: 370px;
+    
+    
+}
+.form-content {
+    padding: 18px 59px 61px;
+    }
+
+.free-title {
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 44px;
+   
+}
+
+.free-title__span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+   color: rgba(51, 51, 51, 1);
+   text-transform: capitalize;
+}
+#fr {
+    color: rgba(236, 121, 121, 1);
+    text-transform: uppercase;
+ }
+
+
+
+
+.form-content__item {
+    margin-bottom: 19px; 
+      
+}
+.form-content__item:last-child {
+    margin: 0;
+}
+
+.form_input {
+   
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 2px 5px; 
+}
+
+
+
+.form-btn {
+    border: 2px solid rgba(236, 121, 121, 1);
+    width:370px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 62px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color:rgba(236, 121, 121, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.form-btn:hover {
+    color: rgba(236, 121, 121, 1);
+    background-color: #fff;
+}
