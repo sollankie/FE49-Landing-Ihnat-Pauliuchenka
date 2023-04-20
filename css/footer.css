@@ -1,0 +1,90 @@
+.footer {
+    padding: 30px 0 15px;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.footer-list {
+    margin: auto;
+    display: flex; 
+    justify-content: space-between;
+    width: 317px;
+    margin-bottom: 18px;
+}
+.footer-list_link a{
+color:  rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.fa-facebook-f__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-facebook-f__footer:hover {
+    color: rgb(10, 10, 196);
+    transform: scale(1.5) rotate(360deg);
+}
+
+.fa-twitter__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-twitter__footer:hover {
+    color: rgb(94, 94, 248);
+    transform: scale(1.5) rotate(360deg);
+}
+.fa-google-plus-g__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-google-plus-g__footer:hover {
+    color: rgb(238, 84, 37);
+    transform: scale(1.5) rotate(360deg);
+}
+.fa-pinterest__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-pinterest__footer:hover {
+    color: rgb(238, 19, 67);
+    transform: scale(1.5) rotate(360deg);
+}
+
+.fa-instagram__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-instagram__footer:hover {
+    color: rgb(215, 58, 158);
+    transform: scale(1.5) rotate(360deg);
+}
+.fa-stumbleupon__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-stumbleupon__footer:hover {
+    color: rgb(214, 78, 60);
+    transform: scale(1.5) rotate(360deg);
+}
+.fa-youtube__footer {
+    font-size: 23px;
+    transition: 0.8s;
+}
+.fa-youtube__footer:hover{
+    color: rgb(234, 13, 13);
+    transform: scale(1.5) rotate(360deg);
+}
+.footer-description {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 130px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;  
+}
